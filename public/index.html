@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Db2 DBA Academy</title><link rel="stylesheet" href="css/app.css"></head>
+<body>
+<div id="app">
+  <aside id="nav"><div class="brand">🗄️ <b>Db2 DBA Academy</b><small>interactive course + simulator</small></div><nav id="menu"></nav><div class="sidefoot" id="sidefoot"></div></aside>
+  <main id="main"><div id="view"></div>
+    <section id="dock"><div id="dockbar"><span id="tabs"></span><span class="sp"></span><button id="btnClear" title="Clear screen">Clear</button><button id="btnReset" title="Fresh environment">⟲ Reset environment</button><button id="btnDock" title="Resize">⇕</button></div>
+      <div id="term"><div id="out"></div><div id="inline"><span id="prompt"></span><input id="cmd" autocomplete="off" spellcheck="false" autofocus></div></div></section>
+  </main>
+</div>
+<div id="boot">Loading simulator…</div>
+<script src="vendor/sql-wasm.js"></script><script src="vendor/sql-wasm-b64.js"></script>
+<script src="js/sim.js"></script><script src="js/sim-sql.js"></script><script src="js/sim-admin.js"></script>
+<script src="js/course/core.js"></script><script src="js/course/m01-03.js"></script><script src="js/course/m04-06.js"></script><script src="js/course/m07-09.js"></script><script src="js/course/m10-12.js"></script><script src="js/course/extras.js"></script>
+<script src="js/app.js"></script>
+</body></html>
